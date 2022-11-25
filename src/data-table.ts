@@ -1,7 +1,7 @@
-import { LitElement, html } from "lit";
-import { customElement } from "lit/decorators.js";
+import { LitElement, html } from 'lit';
+import { customElement } from 'lit/decorators.js';
 
-@customElement("eonix-data-table")
+@customElement('eonix-data-table')
 export class DataTable extends LitElement {
   protected override createRenderRoot(): Element | ShadowRoot {
     return this;
@@ -14,6 +14,6 @@ export class DataTable extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    "eonix-data-table": DataTable;
+    'eonix-data-table': DataTable;
   }
 }
